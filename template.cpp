@@ -1,12 +1,14 @@
 #include <bits/stdc++.h> 
 using namespace std;
 
+#define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 #define foi(a,b) for(int i = a; i < b; i++)
 #define foj(a,b) for(int j = a; j < b; j++)
 #define fok(a,b) for(int k = a; k < b; k++)
 #define debug(a) cout << #a << ": " << a << endl;
 #define debugArr(arr,n) cout <<#arr <<": "; foi(0, n) cout << arr[i] << ' '; cout << endl; 
 #define mod 1000000007
+#define lli long long int
 
 void readInt(int &number) 
 {
@@ -27,11 +29,10 @@ void readInt(int &number)
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    fastio;
     
     #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
+    freopen("input.txt", "r", stdin); 
     freopen("output.txt", "w", stdout);
     #endif
     
