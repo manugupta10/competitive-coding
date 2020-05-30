@@ -5,6 +5,7 @@
         "iostream": "cpp",
         "unordered_map": "cpp",
         "ostream": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "bitset": "cpp"
     }
 }
